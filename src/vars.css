@@ -1,7 +1,10 @@
 :root {
-    --primary-text-color: white;
-    --primary-color: blue;
-    --secondary-color: light blue;
+    --color-bg: blanchedalmond;
+    --color-text-primary: black;
+    --color-text-secondary: black;
+    
+    --primary-color: rgb(171, 171, 255);
+    --secondary-color: light rgb(113, 113, 113);
 
     /* fonts */
     --font-family: 'Roboto', sans-serif;
