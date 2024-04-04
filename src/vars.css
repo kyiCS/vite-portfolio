@@ -1,11 +1,19 @@
 :root {
-    --color-bg: blanchedalmond;
+    /* colors */
+    --color-bg: hsla(36, 31%, 90%, 1);;
+
     --color-text-primary: black;
     --color-text-secondary: black;
-    
+
     --primary-color: rgb(171, 171, 255);
     --secondary-color: light rgb(113, 113, 113);
 
+    --color-backdrop: hsla(45, 17%, 95%, .8);
+
     /* fonts */
     --font-family: 'Roboto', sans-serif;
+
+    --title-text-size: 2.5rem;
+    --sub-text-size: 1rem;
+
 }

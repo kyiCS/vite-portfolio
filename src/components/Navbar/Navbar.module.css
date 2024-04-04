@@ -1,21 +1,52 @@
 @import "../../vars.css";
 
 .navBar {
-  position: relative;
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   z-index: 2;
 }
 
 .menu {
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin: 1.25rem auto 0;
 }
 
 .menuItems{
   display: flex;
   list-style-type: none;
-  gap: 10rem;
+  margin: 0;
+  padding: .75rem;
+  color: black;
+
+  border-radius: 50px;
+  transition: all .2s linear;
 }
+
+.menuItems li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.menuItems a {
+
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  font-size: var(--sub-text-size);
+  margin: 0 5px;
+  padding: .2rem 1.25rem .5rem;
+
+}
+
+.blur {
+  background-color: var(--color-backdrop);
+  backdrop-filter: blur(20px) saturate(1.7);
+}
+
