@@ -21,10 +21,13 @@
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: .75rem;
-  color: black;
+  padding: .4rem;
 
   border-radius: 50px;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: transparent;
+
   transition: all .2s linear;
 }
 
@@ -38,15 +41,18 @@
 .menuItems a {
 
   text-decoration: none;
-  color: var(--color-text-secondary);
-  font-size: var(--sub-text-size);
+  color: var(--color-text-primary);
+  font-size: var(--content-text-size-small);
   margin: 0 5px;
-  padding: .2rem 1.25rem .5rem;
+  padding: .2rem 1.25rem .3rem;
 
 }
 
 .blur {
   background-color: var(--color-backdrop);
-  backdrop-filter: blur(20px) saturate(1.7);
+  backdrop-filter: blur(14px) saturate(3.4);
+
+  border-color: var(--color-border);
+
 }
 

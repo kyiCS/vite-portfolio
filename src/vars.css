@@ -1,19 +1,35 @@
 :root {
     /* colors */
-    --color-bg: hsla(36, 31%, 90%, 1);;
+    --color-bg: white;
 
-    --color-text-primary: black;
-    --color-text-secondary: black;
+    --color-text-primary: rgb(0, 0, 0);
+    --color-text-secondary: rgb(0, 0, 0);
 
-    --primary-color: rgb(171, 171, 255);
-    --secondary-color: light rgb(113, 113, 113);
+    --color-accent-light: rgb(250,251,228);
+    --color-accent-light-2: rgb(207,223,163);
 
-    --color-backdrop: hsla(45, 17%, 95%, .8);
+    --color-accent-medium: rgb(190,190,67);
+    --color-accent-medium-2: rgb(138,177,68);
+    --color-accent-medium-3: rgb(134,185,64);
+
+
+    --color-accent-dark: rgb(40,65,33);
+    --color-accent-dark-2: rgb(36,112,48);
+
+    --color-backdrop: rgba(254, 255, 252, 0.7);
+    --color-border: rgba(228, 228, 228, 0.5);
+
+    --color-gradient-1: 207,223,163;
+    --color-gradient-2: 138,177,68;
+
 
     /* fonts */
     --font-family: 'Roboto', sans-serif;
 
-    --title-text-size: 2.5rem;
-    --sub-text-size: 1rem;
+    --title-text-size: 5rem;
+    --sub-text-size: 1.5rem;
+    --content-text-size: 1rem;
+    --content-text-size-small: .8rem;
+
 
 }

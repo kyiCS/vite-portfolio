@@ -1,0 +1,34 @@
+@import '../../vars.css';
+
+.gradientBackground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;  
+}
+
+.gradientContainer {
+    filter: url(#goo) blur(10px);
+    width: 100%;
+    height: 100%;
+  
+}
+
+.g1 {
+    position: absolute;
+    background: radial-gradient(ellipse at center, rgba(var(--color-gradient-1), 0.8) 0, rgba(var(--color-gradient-2), 0) 50%) no-repeat;
+    mix-blend-mode: hard-light;
+
+    width: 500px;
+    height: 500px;
+    top: 0;
+    left: 0;
+
+    opacity: 1;
+  
+}
