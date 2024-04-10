@@ -6,7 +6,10 @@ export const GradientBackground = () => {
     <section className={styles.gradientBackground}>
         <div className={styles.gradientContainer}>
 
+
+            <div className={styles.topLeft}></div>
             <div className={styles.g1}></div>
+
 
 
         </div>

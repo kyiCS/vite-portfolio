@@ -19,10 +19,12 @@
   
 }
 
-.g1 {
+.topLeft {
     position: absolute;
-    background: radial-gradient(ellipse at center, rgba(var(--color-gradient-1), 0.8) 0, rgba(var(--color-gradient-2), 0) 50%) no-repeat;
+    background: radial-gradient(ellipse at top left, rgba(var(--color-gradient-1), 0.8) 0, rgba(var(--color-gradient-2), 0) 50%) no-repeat;
     mix-blend-mode: hard-light;
+    
+
 
     width: 500px;
     height: 500px;
@@ -30,5 +32,15 @@
     left: 0;
 
     opacity: 1;
-  
+}
+
+.g1 {
+    position: absolute;
+    background: radial-gradient(ellipse at center, rgba(var(--color-gradient-1), 0.8) 0, rgba(var(--color-gradient-2), 0) 50%) no-repeat;
+    mix-blend-mode: hard-light;
+
+    width: 500px;
+    height: 500px;
+
+    opacity: 1;
 }
