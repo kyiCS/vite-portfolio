@@ -10,7 +10,16 @@ function App() {
       <Navbar />
       <Hero />
 
-      HELLO
+
+      <h1>App</h1>
+      <h1>App</h1>
+      <h1>App</h1>
+      <h1>App</h1>
+      <h1>App</h1>
+      <h1>App</h1>
+      <h1>App</h1>
+      <h1>App</h1>
+      <h1>App</h1>
     </div>
   )
 }
