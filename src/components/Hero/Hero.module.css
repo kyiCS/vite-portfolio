@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
-
+    
     margin: 0;
     padding: 0 0 3rem 0;
 
@@ -21,14 +21,15 @@
 .title h1 {
     font-size: var(--title-text-size);
 
-    background: linear-gradient(90deg, var(--color-accent-medium-3), var(--color-accent-medium) 50%);
-
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    line-height: normal
 }
 
 .subTitle {
     font-size: var(--sub-text-size);
+
+    
+    background: linear-gradient(90deg, rgb(var(--color-title-text-gradient-1)), rgb(var(--color-title-text-gradient-2)) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: normal
 }

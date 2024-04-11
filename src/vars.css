@@ -12,21 +12,24 @@
     --color-accent-medium-2: rgb(138,177,68);
     --color-accent-medium-3: rgb(134,185,64);
 
-
     --color-accent-dark: rgb(40,65,33);
     --color-accent-dark-2: rgb(36,112,48);
 
     --color-backdrop: rgba(254, 255, 252, 0.7);
     --color-border: rgba(138, 138, 138, 0.177);
 
-    --color-test: rgb(187, 213, 115);
-    --color-test-2: rgb(138,177,68);
+    --color-test: rgb(255, 108, 108);
+    --color-test-2: rgb(255, 255, 255);
 
-    --color-gradient-1: 187, 213, 115;
-    --color-gradient-2: 138,177,68;
-    --color-gradient-3: 190,190,67;
-    --color-gradient-4: 207,223,163;
-    --color-gradient-5: 36,112,48;
+    --color-title-text-gradient-1: 138,177,68;
+    --color-title-text-gradient-2: 255, 238, 144;
+
+    --color-gradient-1: 240, 192, 255;
+    --color-gradient-2: 255, 255, 255;
+    --color-gradient-3: 255, 191, 41;
+    --color-gradient-4: 255, 255, 255;
+    --color-gradient-5: 255, 108, 108;
+    --color-gradient-6: 255, 255, 255;
 
 
 
