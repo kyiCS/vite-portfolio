@@ -1,6 +1,6 @@
 :root {
     /* colors */
-    --color-bg: white;
+    --color-bg: 245, 245, 245;
 
     --color-text-primary: rgb(0, 0, 0);
     --color-text-secondary: rgb(0, 0, 0);
@@ -18,7 +18,7 @@
     --color-backdrop: rgba(254, 255, 252, 0.7);
     --color-border: rgba(138, 138, 138, 0.177);
 
-    --color-test: rgb(255, 108, 108);
+    --color-test: rgb(255, 255, 247);
     --color-test-2: rgb(255, 255, 255);
 
     --color-title-text-gradient-1: 138,177,68;

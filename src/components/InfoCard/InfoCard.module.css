@@ -1,0 +1,19 @@
+.cardContainer {
+    background-color: white;
+    border-radius: 10px; /* adjust as needed */
+    padding: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* adjust as needed */
+    flex: 1;
+  
+}
+
+.cardTitle {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContent {
+    font-size: 1rem; /* adjust as needed */
+    margin-bottom: 10px; /* adjust as needed */
+}

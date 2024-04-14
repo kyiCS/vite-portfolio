@@ -2,6 +2,7 @@ import styles from './App.module.css';
 import { Hero } from './components/Hero/Hero';
 import { Navbar } from './components/Navbar/Navbar';
 import { GradientBackground } from './components/GradientBackground/GradientBackground';
+import { ThreeCardBlock } from './components/InfoCard/ThreeCardBlock';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <GradientBackground />
       <Navbar />
       <Hero />
+
+      <ThreeCardBlock /> 
 
 
       <h1>App</h1>

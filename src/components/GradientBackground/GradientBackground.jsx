@@ -10,8 +10,6 @@ export const GradientBackground = () => {
             <div className={styles.topRight}></div>
             <div className={styles.topCenter}></div>
 
-
-
         </div>
     </section>
   )
